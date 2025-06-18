@@ -11,8 +11,6 @@ false_guess = 0
 
 begin
   Timeout.timeout(30) do
-
-
 CSV.foreach("problems.csv") do |inquiry|
   question = inquiry[0] 
   answer = inquiry[1]
