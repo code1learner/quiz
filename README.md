@@ -1,1 +1,4 @@
 # quiz
+First, I made a folder. Then I made a Ruby file and a CSV file. I learned how to use CSV files from the official Ruby website: https://docs.ruby-lang.org/en/2.5.0/CSV.html. After that, I learned how to add a time limit using this page: https://www.geeksforgeeks.org/ruby/how-to-set-timeout-in-ruby/. After learning from both places, I wrote a small quiz game in Ruby. It takes questions from the CSV file and gives the user 30 seconds to answer. I used require "csv" to read the file and require "timeout" to set the time.
+
+I used a foreach block to go through each question in the CSV file one by one. It reads each line, shows the question, and asks the user for an answer. I also used an if-else statement to check if the user’s answer is correct. If the answer is right, the score goes up. If the answer is wrong, the wrong answer count goes up. If time runs out, the program stops and shows how many answers were right and how many were wrong.
